@@ -1,0 +1,7 @@
+.crop {
+    overflow: hidden;
+}
+.crop .fa {
+    width: 15px;
+    height: auto;
+}
