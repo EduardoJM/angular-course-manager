@@ -1,27 +1,57 @@
-# CourseManager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.
+# Angular Course Manager (Basic CRUD)
 
-## Development server
+This is my first project using Angular and it's a basic **CRUD** (**Create**, **Retrieve**, **Update**, **Delete**), using **Angular**. This project was created during the course **Introdução ao Angular 8** on the **Santander Bootcamp | FullStack Developer** in the **Digital Innovation One** platform. The project uses **Bootstrap** and **FontAwesome** for styles and icons.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The **Back-end** of this project was a mock api using **json-server** package and the initial data is found on the **db.json** file at root of the project path.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Demo
 
-## Build
+![Preview Image 1](.github/preview1.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Preview Image 2](.github/preview2.png)
 
-## Running unit tests
+## Run Locally
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Clone the project
 
-## Running end-to-end tests
+```bash
+git clone https://github.com/EduardoJM/angular-course-manager
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Go to the project directory
 
-## Further help
+```bash
+cd angular-course-manager
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the Mock API Back-End
+
+```bash
+npm run db
+```
+
+Start the server
+
+```bash
+npm run start
+```
+
+or 
+
+```bash
+ng serve
+```
+## Authors
+
+- GitHub: [@EduardoJM](https://www.github.com/EduardoJM)
+- Twitter: [@edu_js_o](https://twitter.com/edu_js_o)
+- LinkedIn: [/edujso](https://www.linkedin.com/in/edujso/)
+
